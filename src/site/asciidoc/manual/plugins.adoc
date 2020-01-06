@@ -209,7 +209,7 @@ Converter, and must have a `@ConverterKeys` annotation present that
 contains the array of converter patterns that will cause the Converter
 to be selected. Converters that are meant to handle `LogEvent` must
 extend the
-link:../log4j-core/apidocs/org/apache/logging/log4j/core/layout/LogEventPatternConverter.html[`LogEventPatternConverter`]
+link:../log4j-core/apidocs/org/apache/logging/log4j/core/pattern/LogEventPatternConverter.html[`LogEventPatternConverter`]
 class and must implement a format method that accepts a `LogEvent` and a
 `StringBuilder` as arguments. The Converter should append the result of
 its operation to the `StringBuilder`.
